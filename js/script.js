@@ -27,9 +27,8 @@ button.addEventListener("click", event => {
         resultado.classList.add("response") 
     }
 
-    if(codigo.length > 0){
-        alert("Código invalido!")   
-    }else{
+ 
+    if(codigo.length == 0){
         alert("Preencha o campo!")
     }
 
