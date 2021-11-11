@@ -26,12 +26,6 @@ button.addEventListener("click", event => {
         resultado.innerHTML = "<p> Design Thinking </p>"
         resultado.classList.add("response") 
     }
-
- 
-    if(codigo.length == 0){
-        alert("Preencha o campo!")
-    }
-
       
 })
 
